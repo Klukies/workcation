@@ -1,0 +1,25 @@
+@tailwind base;
+
+#app {
+  @apply min-h-screen bg-gray-200 antialiased xl:flex xl:flex-col xl:h-screen;
+}
+
+@tailwind components;
+
+.nav-link {
+  @apply block px-3 py-1 rounded font-semibold text-white hover:bg-gray-800 sm:text-sm sm:px-2 xl:text-gray-900 xl:hover:bg-gray-200;
+}
+
+.profile-link {
+  @apply block text-gray-400 hover:text-white;
+}
+
+.dropdown-link {
+  @apply block hover:text-white text-gray-800 px-4 py-2 hover:bg-indigo-500;
+}
+
+.form-group-title {
+  @apply text-sm font-semibold text-gray-500;
+}
+
+@tailwind utilities;
